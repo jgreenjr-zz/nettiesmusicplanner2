@@ -14,12 +14,12 @@
         android:text="@string/food"
         android:id="@+id/foodTextView"
         android:layout_alignTop="@+id/food_spinner"
-        android:layout_alignLeft="@+id/food_spinner"/>
+        android:layout_alignLeft="@+id/food_spinner"
+            android:layout_marginBottom="10"/>
 
     <Spinner android:id="@+id/food_spinner"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"
-             android:layout_marginTop="32dp"
              android:layout_centerHorizontal="true"></Spinner>
     <TextView
             android:layout_width="wrap_content"

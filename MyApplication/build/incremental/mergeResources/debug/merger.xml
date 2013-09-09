@@ -73,9 +73,9 @@ Bad
                 </string>
                 <string name="food" >Food
                 </string>
-                <string name="water" >Water
-                </string>
                 <string name="sleep" >Sleep
+                </string>
+                <string name="water" >Water
                 </string>
             </file>
             <file

@@ -1,13 +1,13 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378741920879 1780 d3cd7bf4d2dffc01a6c43e91f9075240816f28f7 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\layout\activity_main.xml
-1378501030046 367 cac73e6bc6982d089012cc8ed2ba85ed7dfd91c1 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\menu\main.xml
-1378501030074 347 f2783f9219c6062e90ed0a6572a766d4a3f5217c C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v11\values.xml
-1378501030070 361 a6b3c27a54bddc4e83dae794a536e82c285356be C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v14\values.xml
-1378501030076 276 c7d22faee2d668ba3f72416aefa96ca51bcf1b29 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-sw720dp-land\values.xml
-1378741920891 1703 e33391bed89b6bc3ed0a1136a7634201e87ffd33 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values\values.xml
-1378501030152 17765 702fd3311475c099afc13c0b03375d917cc82018 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
-1378501030115 9332 4e0e62a430558d0cce3c5dee6f4709055a63a45c C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xhdpi\ic_launcher.png
-1378501030100 3121 c13193c37274d333ac028cc72c260b891662d9d0 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-mdpi\ic_launcher.png
-1378501030090 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-hdpi\ic_launcher.png
+1378749675089 1780 d6691c2856b41d409cd5408ad68e08e2750115d0 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\layout\activity_main.xml
+1378749675087 367 cac73e6bc6982d089012cc8ed2ba85ed7dfd91c1 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\menu\main.xml
+1378749675098 347 f2783f9219c6062e90ed0a6572a766d4a3f5217c C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v11\values.xml
+1378749675092 361 a6b3c27a54bddc4e83dae794a536e82c285356be C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-v14\values.xml
+1378749675100 276 c7d22faee2d668ba3f72416aefa96ca51bcf1b29 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values-sw720dp-land\values.xml
+1378749675090 1703 e33391bed89b6bc3ed0a1136a7634201e87ffd33 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\values\values.xml
+1378749675163 17765 702fd3311475c099afc13c0b03375d917cc82018 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
+1378749675143 9332 4e0e62a430558d0cce3c5dee6f4709055a63a45c C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1378749675135 3121 c13193c37274d333ac028cc72c260b891662d9d0 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-mdpi\ic_launcher.png
+1378749675139 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\build\res\all\debug\drawable-hdpi\ic_launcher.png
