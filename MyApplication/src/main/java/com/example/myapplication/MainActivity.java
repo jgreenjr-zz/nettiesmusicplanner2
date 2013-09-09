@@ -23,9 +23,17 @@ public class MainActivity extends Activity {
     }
 
     public void CreateOpeningSongList(){
-        Spinner spinner = (Spinner) findViewById(R.id.food_spinner);
         ArrayAdapter<CharSequence> list = ArrayAdapter.createFromResource(this,R.array.WorkoutStatus,android.R.layout.simple_spinner_item);
-       spinner.setAdapter(list);
+        SetSpinner(R.id.food_spinner, list);
+        SetSpinner(R.id.water_spinner, list);
+        SetSpinner(R.id.sleep_spinner, list);
+
     }
+
+    public void SetSpinner(int spinnerID, ArrayAdapter<CharSequence> list  ){
+        Spinner spinner = (Spinner) findViewById(spinnerID);
+        spinner.setAdapter(list);
+    }
+
     
 }

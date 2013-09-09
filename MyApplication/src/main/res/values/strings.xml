@@ -7,5 +7,6 @@
     <string name="water">Water</string>
     <string name="exercise">Exercise</string>
     <string name="sleep">Sleep</string>
+    <string name="submitButton">Send in Email</string>
 
 </resources>

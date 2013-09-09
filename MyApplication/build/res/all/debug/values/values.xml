@@ -18,6 +18,7 @@
     <string name="exercise">Exercise</string>
     <string name="food">Food</string>
     <string name="sleep">Sleep</string>
+    <string name="submitButton">Send in Email</string>
     <string name="water">Water</string>
     <!-- From: file:/C:/Users/jay.green/AndroidStudioProjects/MyApplicationProject/MyApplication/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">

@@ -6,6 +6,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+
     tools:context=".MainActivity">
 
     <TextView
@@ -13,26 +14,62 @@
         android:layout_height="wrap_content"
         android:text="@string/food"
         android:id="@+id/foodTextView"
-        android:layout_alignTop="@+id/food_spinner"
-        android:layout_alignLeft="@+id/food_spinner"
-            android:layout_marginBottom="10"/>
+            />
 
     <Spinner android:id="@+id/food_spinner"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"
-             android:layout_centerHorizontal="true"></Spinner>
+             android:layout_below="@+id/foodTextView"            />
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/water"
             android:id="@+id/waterTextView"
-            android:layout_alignTop="@+id/water_spinner"
-            android:layout_alignLeft="@+id/water_spinner"/>
+            android:layout_below="@+id/food_spinner"
+          />
 
     <Spinner android:id="@+id/water_spinner"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"
-             android:layout_below="@+id/food_spinner"
-             android:layout_centerHorizontal="true"></Spinner>
+             android:layout_below="@+id/waterTextView"
+             android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep"
+            android:id="@+id/sleepTextView"
+            android:layout_below="@+id/water_spinner"
+            />
+
+    <Spinner android:id="@+id/sleep_spinner"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/sleepTextView"
+             android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise"
+            android:id="@+id/exerciseTextView"
+            android:layout_below="@+id/sleep_spinner"
+            />
+
+   <EditText android:id="@+id/exercise_editText"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:layout_below="@+id/exerciseTextView"
+           />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submitButton"
+            android:id="@+id/button"
+            android:layout_below="@+id/exercise_editText"/>
+
+
+
 </RelativeLayout>
 <!-- From: file:/C:/Users/jay.green/AndroidStudioProjects/MyApplicationProject/MyApplication/src/main/res/layout/activity_main.xml -->
