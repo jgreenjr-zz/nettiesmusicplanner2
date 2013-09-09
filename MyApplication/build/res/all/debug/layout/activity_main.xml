@@ -9,21 +9,30 @@
     tools:context=".MainActivity">
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Opening Song"
-            android:id="@+id/textView2"
-            android:layout_alignTop="@+id/openingsong_spinner"
-            android:layout_alignLeft="@+id/openingsong_spinner"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food"
+        android:id="@+id/foodTextView"
+        android:layout_alignTop="@+id/food_spinner"
+        android:layout_alignLeft="@+id/food_spinner"/>
 
-    <Spinner android:id="@+id/openingsong_spinner"
+    <Spinner android:id="@+id/food_spinner"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"
              android:layout_marginTop="32dp"
-             android:layout_centerHorizontal="true">
+             android:layout_centerHorizontal="true"></Spinner>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/water"
+            android:id="@+id/waterTextView"
+            android:layout_alignTop="@+id/water_spinner"
+            android:layout_alignLeft="@+id/water_spinner"/>
 
-
-
-             </Spinner>
+    <Spinner android:id="@+id/water_spinner"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/food_spinner"
+             android:layout_centerHorizontal="true"></Spinner>
 </RelativeLayout>
 <!-- From: file:/C:/Users/jay.green/AndroidStudioProjects/MyApplicationProject/MyApplication/src/main/res/layout/activity_main.xml -->

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Music Planner</string>
+    <string name="app_name">Daily</string>
     <string name="action_settings">Settings</string>
-
+    <string name="food">Food</string>
+    <string name="water">Water</string>
+    <string name="exercise">Exercise</string>
+    <string name="sleep">Sleep</string>
 
 </resources>

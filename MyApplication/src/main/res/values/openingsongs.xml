@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="openingSongs">
-        <item>song 1</item>
-        <item>song 2</item>
+    <string-array name="WorkoutStatus">
+        <item>Great</item>
+        <item>Good</item>
+        <item>Ok</item>
+        <item>Eh</item>
+        <item>Bad</item>
     </string-array>
 </resources>

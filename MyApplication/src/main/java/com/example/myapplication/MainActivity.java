@@ -15,7 +15,6 @@ public class MainActivity extends Activity {
         CreateOpeningSongList();
      }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -24,8 +23,8 @@ public class MainActivity extends Activity {
     }
 
     public void CreateOpeningSongList(){
-        Spinner spinner = (Spinner) findViewById(R.id.openingsong_spinner);
-        ArrayAdapter<CharSequence> list = ArrayAdapter.createFromResource(this,R.array.openingSongs,android.R.layout.simple_spinner_item);
+        Spinner spinner = (Spinner) findViewById(R.id.food_spinner);
+        ArrayAdapter<CharSequence> list = ArrayAdapter.createFromResource(this,R.array.WorkoutStatus,android.R.layout.simple_spinner_item);
        spinner.setAdapter(list);
     }
     
