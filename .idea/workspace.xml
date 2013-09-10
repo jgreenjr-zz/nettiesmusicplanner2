@@ -23,9 +23,16 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
+    <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="Finishing layout for checkin app">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -95,22 +102,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.7467167" vertical-offset="214" max-vertical-offset="1207">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#674#1593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="56" selection-start="2380" selection-end="2396" vertical-scroll-proportion="-8.84" vertical-offset="816" max-vertical-offset="1360">
+            <state line="63" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.5019685" vertical-offset="816" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -137,7 +132,7 @@
       <file leaf-file-name="MessageCreator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="18" column="5" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -176,7 +171,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
+            <state line="10" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -210,7 +205,7 @@
           <key>
             <ExternalProjectPojo>
               <option name="name" value="MyApplicationProject" />
-              <option name="path" value="C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject" />
+              <option name="path" value="C:\Users\jay.green\AndroidStudioProjects" />
             </ExternalProjectPojo>
           </key>
           <value>
@@ -226,11 +221,32 @@
             </list>
           </value>
         </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="nettiesmusicplanner2" />
+              <option name="path" value="C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="MyApplication" />
+                <option name="path" value="$PROJECT_DIR$/MyApplication" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="nettiesmusicplanner2" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
         <entry key="C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject" value="1378500996001" />
+        <entry key="C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2" value="1378702853168" />
       </map>
     </option>
   </component>
@@ -239,10 +255,12 @@
       <list>
         <option value="$PROJECT_DIR$/MyApplication/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/res/values/openingsongs.xml" />
-        <option value="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java" />
+        <option value="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageSender.java" />
+        <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/TextMessageSender.java" />
       </list>
     </option>
   </component>
@@ -252,8 +270,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="5" />
-    <option name="width" value="1660" />
-    <option name="height" value="1010" />
+    <option name="width" value="1296" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -282,7 +300,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,10 +307,6 @@
               <option name="myItemId" value="MyApplication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -301,7 +314,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplicationProject" />
+              <option name="myItemId" value="nettiesmusicplanner2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplicationProject" />
+              <option name="myItemId" value="nettiesmusicplanner2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,7 +338,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplicationProject" />
+              <option name="myItemId" value="nettiesmusicplanner2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -347,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyApplicationProject" />
+              <option name="myItemId" value="nettiesmusicplanner2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -373,6 +386,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,12 +401,11 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_7_by_Google" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.MyApplication">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -571,17 +584,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="5" width="1660" height="1010" extended-state="0" />
-    <editor active="false" />
+    <frame x="10" y="5" width="1296" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278496" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496871" sideWeight="0.20046893" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,13 +603,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496871" sideWeight="0.6705744" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39987484" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6705744" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.6705744" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67215043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.6717468" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -663,23 +676,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="312" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="138" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#674#1593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/openingsongs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204">
@@ -727,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="52" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1360">
@@ -747,13 +736,6 @@
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="5" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="56" selection-start="2380" selection-end="2396" vertical-scroll-proportion="-8.84" vertical-offset="816" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
@@ -772,13 +754,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.7467167" vertical-offset="214" max-vertical-offset="1207">
+        <state line="33" column="16" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1207">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#674#1593#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#674#1593#0" expanded="false" />
+            <element signature="e#1582#1583#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.5019685" vertical-offset="816" max-vertical-offset="1360">
+          <folding />
         </state>
       </provider>
     </entry>
