@@ -74,6 +74,13 @@
         android:layout_height="wrap_content"
         android:text="@string/sendSMS"
         android:id="@+id/button2"
-        android:layout_below="@+id/button"/>
+        android:layout_toRightOf="@+id/button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showPopup"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"/>
 
 </RelativeLayout>

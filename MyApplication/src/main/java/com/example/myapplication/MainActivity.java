@@ -43,6 +43,21 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button b3 = (Button)findViewById(R.id.button3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+
+                    MessageSender sender = new PopupMessageSender();
+                    SendMessage( sender ) ;
+                }
+                catch(Exception ex){
+                    String text = ex.getMessage();
+                }
+            }
+        });
+
      }
 
     @Override
