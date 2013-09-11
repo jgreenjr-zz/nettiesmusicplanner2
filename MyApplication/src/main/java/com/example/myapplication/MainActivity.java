@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -31,8 +32,14 @@ public class MainActivity extends Activity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MessageSender sender = new SMSMessageSender();
+                try{
+
+                MessageSender sender = new SMSMessageSender(view.getContext());
                 SendMessage( sender ) ;
+                }
+                catch(Exception ex){
+                    String text = ex.getMessage();
+                }
             }
         });
 

@@ -24,6 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -85,7 +87,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" line="33" class="com.example.myapplication.MainActivity$2" package="com.example.myapplication">
+      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" line="21" class="com.example.myapplication.SMSMessageSender" package="com.example.myapplication">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -100,7 +102,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" line="20" class="com.example.myapplication.SMSMessageSender" package="com.example.myapplication">
+      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" line="55" class="com.example.myapplication.MainActivity" package="com.example.myapplication">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -115,7 +117,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" line="48" class="com.example.myapplication.MainActivity" package="com.example.myapplication">
+      <breakpoint url="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" line="40" class="com.example.myapplication.MainActivity$2" package="com.example.myapplication">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -140,28 +142,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApplication/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyApplicationProject.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApplicationProject.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessageCreator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -187,13 +171,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7191651" vertical-offset="318" max-vertical-offset="1292">
+            <state line="39" column="10" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1462">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#994#1379#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="299" column="16" selection-start="12227" selection-end="12227" vertical-scroll-proportion="0.0" vertical-offset="4908" max-vertical-offset="7429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdapterView.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/AdapterView.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="28" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="2193">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -209,10 +213,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SMSMessageSender.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SMSMessageSender.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="8" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.21296297" vertical-offset="21" max-vertical-offset="561">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,28 +224,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="Intent.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="37" selection-start="2799" selection-end="2806" vertical-scroll-proportion="-17.68" vertical-offset="816" max-vertical-offset="1445">
-              <folding>
-                <element signature="e#606#620#0" expanded="true" />
-                <element signature="e#803#817#0" expanded="true" />
-                <element signature="e#1277#1291#0" expanded="true" />
-                <element signature="e#1796#1810#0" expanded="true" />
-                <element signature="e#2326#2339#0" expanded="true" />
-              </folding>
+            <state line="479" column="34" selection-start="32623" selection-end="32623" vertical-scroll-proportion="0.0" vertical-offset="7968" max-vertical-offset="9197">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/styles.xml">
+      <file leaf-file-name="Uri.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/net/Uri.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="27" selection-start="673" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+            <state line="64" column="34" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="2244">
               <folding />
             </state>
           </provider>
@@ -588,8 +583,8 @@
         <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" />
         <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" />
       </list>
     </option>
   </component>
@@ -984,7 +979,11 @@
       <created>1378922108047</created>
       <updated>1378922108047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding messaging service">
+      <created>1378922144672</created>
+      <updated>1378922144672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1017,7 +1016,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957393" sideWeight="0.6717468" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5669587" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33645955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1055,32 +1054,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/util/concurrent/ThreadPoolExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="54" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.48968107" vertical-offset="1252" max-vertical-offset="1887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="735" selection-end="735" vertical-scroll-proportion="0.65265083" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/res/values/openingsongs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -1148,13 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/ClipBoardMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="5" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
@@ -1164,18 +1130,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java">
+    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="5" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/AdapterView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="28" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/net/Uri.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="34" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.0" vertical-offset="909" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="479" column="34" selection-start="32623" selection-end="32623" vertical-scroll-proportion="0.0" vertical-offset="7968" max-vertical-offset="9197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="16" selection-start="12227" selection-end="12227" vertical-scroll-proportion="0.0" vertical-offset="4908" max-vertical-offset="7429">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7191651" vertical-offset="318" max-vertical-offset="1292">
+        <state line="39" column="10" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1462">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#1379#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.21296297" vertical-offset="21" max-vertical-offset="561">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

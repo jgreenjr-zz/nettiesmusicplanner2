@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.telephony.SmsManager;
@@ -10,17 +11,17 @@ import android.telephony.SmsMessage;
  * Created by greenja01 on 9/11/13.
  */
 public class SMSMessageSender implements MessageSender {
-    Activity activity = null;
+    Context _Context = null;
 
-    public SMSMessageSender() {
-        activity = new Activity();
+    public SMSMessageSender(Context context) {
+        _Context = context;
     }
 
 
     public void SendMessage(String message){
-        Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse("sms:2062652405") );
+        Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse("sms:") );
         intent.putExtra( "sms_body", message );
-        activity.startActivity(intent);
+        _Context.startActivity(intent);
 
     }
 }
