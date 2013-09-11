@@ -8,5 +8,5 @@
     <string name="exercise">Exercise</string>
     <string name="sleep">Sleep</string>
     <string name="submitButton">Copy to Clipboard</string>
-
+    <string name="sendSMS">Send SMS</string>
 </resources>

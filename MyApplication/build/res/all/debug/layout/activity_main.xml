@@ -69,7 +69,12 @@
             android:id="@+id/button"
             android:layout_below="@+id/exercise_editText"/>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendSMS"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"/>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/jay/Documents/FutureCorp/nettiesmusicplanner2/MyApplication/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/C:/Users/jay.green/AndroidStudioProjects/MyApplicationProject/MyApplication/src/main/res/layout/activity_main.xml -->

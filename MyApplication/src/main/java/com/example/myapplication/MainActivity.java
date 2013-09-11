@@ -1,7 +1,5 @@
 package com.example.myapplication;
 
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -24,18 +22,20 @@ public class MainActivity extends Activity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Spinner foodSpinner = (Spinner) findViewById(R.id.food_spinner);
-                Spinner waterSpinner = (Spinner) findViewById(R.id.food_spinner);
-                Spinner sleepSpinner = (Spinner) findViewById(R.id.food_spinner);
-                EditText exerciseTextView = (EditText) findViewById(R.id.exercise_editText);
-
-                String message = new MessageCreator().CreateMessage(foodSpinner.getSelectedItem().toString(), waterSpinner.getSelectedItem().toString(), sleepSpinner.getSelectedItem().toString(), exerciseTextView.getText().toString() );
-
-                ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
-                ClipData clip = ClipData.newPlainText("status", message);
-                clipboard.setPrimaryClip(clip);
+                ClipBoardMessageSender sender = new ClipBoardMessageSender(getSystemService(CLIPBOARD_SERVICE));
+                SendMessage( sender ) ;
             }
         });
+
+        Button b2 = (Button)findViewById(R.id.button2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MessageSender sender = new SMSMessageSender();
+                SendMessage( sender ) ;
+            }
+        });
+
      }
 
     @Override
@@ -44,6 +44,17 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+
+    public void SendMessage(MessageSender sender){
+        Spinner foodSpinner = (Spinner) findViewById(R.id.food_spinner);
+        Spinner waterSpinner = (Spinner) findViewById(R.id.water_spinner);
+        Spinner sleepSpinner = (Spinner) findViewById(R.id.sleep_spinner);
+        EditText exerciseTextView = (EditText) findViewById(R.id.exercise_editText);
+
+        String message = new MessageCreator().CreateMessage(foodSpinner.getSelectedItem().toString(), waterSpinner.getSelectedItem().toString(), sleepSpinner.getSelectedItem().toString(), exerciseTextView.getText().toString(), sender);
+
+    }
+
 
 
     public void CreateOpeningSongList(){

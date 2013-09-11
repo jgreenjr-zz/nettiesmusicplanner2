@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplicationProject.iml" filepath="$PROJECT_DIR$/MyApplicationProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nettiesmusicplanner2.iml" filepath="$PROJECT_DIR$/nettiesmusicplanner2.iml" />
     </modules>
   </component>
 </project>
