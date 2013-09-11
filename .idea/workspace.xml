@@ -23,25 +23,7 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="Finishing layout for checkin app">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/ClipBoardMessageSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/SMSMessageSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MessageCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/MyApplication.iml" afterPath="$PROJECT_DIR$/MyApplication/MyApplication.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplicationProject.iml" afterPath="$PROJECT_DIR$/MyApplicationProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values-v14/values.xml" />
+    <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -208,7 +190,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7164461" vertical-offset="318" max-vertical-offset="1292">
+            <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7191651" vertical-offset="318" max-vertical-offset="1292">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -998,7 +980,11 @@
       <created>1378761684667</created>
       <updated>1378761684667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding messaging service">
+      <created>1378922108047</created>
+      <updated>1378922108047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1032,10 +1018,10 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33567253" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33645955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25594494" sideWeight="0.15438597" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25594494" sideWeight="0.15357561" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6705744" order="3" side_tool="false" content_ui="tabs" />
@@ -1043,8 +1029,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496871" sideWeight="0.6705744" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39987484" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6705744" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25594494" sideWeight="0.5099415" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33567253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25594494" sideWeight="0.5087925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33645955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1048,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Finishing layout for checkin app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing layout for checkin app" />
+    <MESSAGE value="adding messaging service" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding messaging service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1188,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7164461" vertical-offset="318" max-vertical-offset="1292">
+        <state line="47" column="19" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.7191651" vertical-offset="318" max-vertical-offset="1292">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
