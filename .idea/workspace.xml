@@ -24,14 +24,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0af85b06-8601-4df3-9819-6e4b283930f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/PopupMessageSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/extendedApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/MyApplication/src/main/java/com/example/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyApplication/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/MyApplication/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyApplication.iws" />
@@ -971,7 +963,11 @@
       <created>1378923561409</created>
       <updated>1378923561409</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding popup service...maybe">
+      <created>1378941312362</created>
+      <updated>1378941312362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1037,7 +1033,8 @@
     <MESSAGE value="Finishing layout for checkin app" />
     <MESSAGE value="adding messaging service" />
     <MESSAGE value="Fininshing Messaging Service!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fininshing Messaging Service!" />
+    <MESSAGE value="adding popup service...maybe" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding popup service...maybe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
