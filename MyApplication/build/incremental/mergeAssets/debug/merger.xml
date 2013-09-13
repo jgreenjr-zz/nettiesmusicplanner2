@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\src\main\assets" />
+        <source path="C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\jay.green\AndroidStudioProjects\MyApplicationProject\MyApplication\src\debug\assets" />
+        <source path="C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\src\debug\assets" />
     </dataSet>
 
 </merger>

@@ -11,7 +11,7 @@ public class ClipBoardMessageSender implements MessageSender {
     ClipboardManager clipboardManager;
     public ClipBoardMessageSender(Object service)
     {
-        ClipboardManager clipboard = (ClipboardManager)service;
+        clipboardManager = (ClipboardManager)service;
     }
 
 
