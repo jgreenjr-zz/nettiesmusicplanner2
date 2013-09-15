@@ -1,0 +1,25 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379052960103 563264 44ec51e9d395a47aab135e5e1b556c0007442156 C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar
+1379112760566 359 fdc73ac1e1da2010356e9bbf147ce969332b18da C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\BuildConfig.class
+1379113284211 776 ada0c79ff7789c2e829bd2e0a2dcaf72d8c59568 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$id.class
+1379120289485 1750 dd0b767f32e80e35c06f3b0c89334d14cad3d26f C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\MainActivity$2.class
+1379120289481 1155 5aee7d1bc93475262e180df9dad89a3441ca062c C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\MainActivity$1.class
+1379113284207 361 4852f94886e8d4eeb02268188c100e200c6cee05 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$attr.class
+1379113284208 482 91a4872d5a715193e8149bb40a44ddda84007c95 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$dimen.class
+1379118805716 455 3cf0c9ac3cc0b2a5512499972810435d3a6f5b5a C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$xml.class
+1379113284047 993 b5563b6e7c1105fcc469548f42cb9d5f01881ead C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\ClipBoardMessageSender.class
+1379118805710 409 2770d6cab8d89710aba72f726718fe61b8b1c792 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$menu.class
+1379120289489 3636 b1f71af4dd33ba86de983b91e5b60631b25a342a C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\MainActivity.class
+1379113284207 617 ee399100d3a24167ebee98f2747d16257ce3f449 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$array.class
+1379118805686 1169 cf194dc9c9c75ccf40b84ac4efbb8e3059fd1da6 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\SettingsActivity.class
+1379118805713 1394 8817c1135208acc3e52f4e5ca8f3a9a682ee4001 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$string.class
+1379113284209 428 4dbd94b1a3785aa6e1ea73502ed10067f5a6af06 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$drawable.class
+1379120289547 1362 cc042f8f3eb0d34639e1dbc0e418b5290e8c1e76 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\SMSMessageSender.class
+1379118805714 452 ed4a89c35459c2c64c43f0ecd82c030e7abeddbd C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$style.class
+1379112760431 179 37f44221b51da0476da53314ae86b22d860c176b C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\MessageSender.class
+1379118805718 853 7c6955fb94b5985696845f97d21894ad8e18bc81 C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R.class
+1379118805709 424 48c4b71b41af94b368e41ee7467c6ae5d789585d C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\R$layout.class
+1379112760539 1461 0e84dfbf65c582436aac91881036bdf7e955b2ec C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\MessageCreator.class
+1379119016464 698 7929c462fc844de27c8d0e3ab622e6a76042500a C:\Users\jay\Documents\FutureCorp\nettiesmusicplanner2\MyApplication\build\classes\debug\com\example\myapplication\SettingsActivity$Prefs1Fragment.class

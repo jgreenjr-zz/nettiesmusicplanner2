@@ -1,8 +1,12 @@
 package com.example.myapplication;
 
 import android.app.AlertDialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.app.Activity;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -33,8 +37,10 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 try{
+                    SharedPreferences sharedPreferences =  PreferenceManager.getDefaultSharedPreferences(view.getContext());
+                    String phone = sharedPreferences.getString("pref_key_phone_target","");
 
-                MessageSender sender = new SMSMessageSender(view.getContext());
+                MessageSender sender = new SMSMessageSender(view.getContext(),phone);
                 SendMessage( sender ) ;
                 }
                 catch(Exception ex){
@@ -51,6 +57,20 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(android.view.MenuItem item)
+    {
+        switch(item.getItemId())
+        {
+            case R.id.action_settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+        }
+
+        return true;
+    }
+
 
     public void SendMessage(MessageSender sender){
         Spinner foodSpinner = (Spinner) findViewById(R.id.food_spinner);

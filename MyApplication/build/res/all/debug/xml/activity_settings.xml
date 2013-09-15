@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/pref_header_general"
+        android:key="pref_key_storage_settings">
+            <EditTextPreference
+                android:key="pref_key_phone_target"
+                android:summary="Phone Number of Check-in buddy"
+                android:title="Number"                />
+
+
+        </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/C:/Users/jay/Documents/FutureCorp/nettiesmusicplanner2/MyApplication/src/main/res/xml/activity_settings.xml -->

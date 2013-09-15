@@ -12,14 +12,16 @@ import android.telephony.SmsMessage;
  */
 public class SMSMessageSender implements MessageSender {
     Context _Context = null;
+    String phoneNumber  = "";
 
-    public SMSMessageSender(Context context) {
+    public SMSMessageSender(Context context, String phoneNumber) {
         _Context = context;
+        this.phoneNumber = phoneNumber;
     }
 
 
     public void SendMessage(String message){
-        Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse("sms:") );
+        Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse("sms:"+phoneNumber) );
         intent.putExtra( "sms_body", message );
         _Context.startActivity(intent);
 
